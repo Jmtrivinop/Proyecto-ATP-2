@@ -1,0 +1,31 @@
+@startuml
+
+Actor Client
+participant Main
+participant MyApp
+participant IProblemCreator
+participant IProblemSolver
+participant EncryptionHandler
+Actor DataServer
+
+Client -> Main: data
+Main -> EncryptionHandler: encrypt(data: dict, public_key_pem: str)
+EncryptionHandler --> Main: dict
+Main -> DataServer: get_numbers()
+DataServer --> Main: encrypted_numbers
+Main -> EncryptionHandler: decrypt(encrypted_numbers: dict)
+EncryptionHandler --> Main: data:dict
+Main -> MyApp: select_problem(problem: str)
+MyApp -> CreatorPrime: factory_method()
+MyApp -> CreatorFizzbuzz: factory_method()
+MyApp -> CreatorFibonacci: factory_method()
+MyApp --> Main: problem:IProblemCreator
+
+Main -> MyApp: run(problem,data):
+MyApp-> IProblemCreator: solve(data: List[int])
+IProblemCreator -> IProblemSolver: compute_results(data: List[int])
+IProblemSolver --> IProblemCreator: List[str]
+IProblemCreator --> Main: List[str]
+
+
+@enduml

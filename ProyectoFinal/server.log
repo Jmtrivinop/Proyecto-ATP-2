@@ -1,0 +1,162 @@
+2024-06-01 21:18:58,569 - INFO - Server started on localhost:65092
+2024-06-01 21:19:01,584 - INFO - Shutting down the program
+2024-06-01 21:19:21,277 - INFO - Server started on localhost:65092
+2024-06-01 21:19:29,993 - INFO - Processed problem fizzbuzz, range: 10, min:0, max: 1000, 
+2024-06-01 21:41:40,161 - INFO - Shutting down the program
+2024-06-02 16:29:02,481 - INFO - Server started on localhost:65092
+2024-06-02 16:29:23,096 - INFO - Processed problem fibonacci, range: 40, min:0, max: 1000, 
+2024-06-02 21:00:54,688 - INFO - Server started on localhost:65092
+2024-06-02 21:01:24,578 - INFO - Shutting down the program
+2024-06-02 21:01:38,680 - INFO - Server started on localhost:65092
+2024-06-02 21:01:59,361 - INFO - Processed problem fibonacci, range: 40, min:0, max: 1000, 
+2024-06-02 21:03:17,827 - INFO - Shutting down the program
+2024-06-02 21:03:21,624 - INFO - Server started on localhost:65092
+2024-06-02 21:03:30,214 - INFO - Processed problem fibonacci, range: 40, min:0, max: 1000, 
+2024-06-02 21:08:15,115 - INFO - Server started on localhost:65092
+2024-06-02 21:08:22,182 - INFO - Processed problem fibonacci, range: 40, min:0, max: 1000, 
+2024-06-02 21:08:41,231 - INFO - Server started on localhost:65092
+2024-06-02 21:08:49,852 - INFO - Processed problem fibonacci, range: 40, min:0, max: 1000, 
+2024-06-02 21:09:13,332 - INFO - Shutting down the program
+2024-06-02 22:30:03,689 - INFO - Server started on localhost:65092
+2024-06-02 22:30:33,927 - INFO - Processed problem fibonacci, range: 40, min:0, max: 1000, 
+2024-06-02 23:44:11,615 - INFO - Processed problem primeClassifier, range: 40, min:0, max: 1000, 
+2024-06-02 23:45:16,995 - INFO - Shutting down the program
+2024-06-02 23:45:17,804 - INFO - Server started on localhost:65092
+2024-06-02 23:45:34,959 - INFO - Processed problem primeClassifier, range: 40, min:0, max: 1000, 
+2024-06-03 00:07:11,190 - INFO - Shutting down the program
+2024-06-03 00:07:11,871 - INFO - Server started on localhost:65092
+2024-06-03 00:09:36,236 - INFO - Shutting down the program
+2024-06-03 00:16:01,255 - INFO - Server started on localhost:65092
+2024-06-03 00:21:02,892 - INFO - Server started on localhost:65092
+2024-06-03 00:21:10,111 - INFO - Processed problem primeClassifier, range: 40, min:0, max: 1000, 
+2024-06-03 11:19:12,072 - INFO - Server started on localhost:65092
+2024-06-03 11:19:52,665 - INFO - Processed problem fibonacci, range: 40, min:0, max: 1000
+2024-06-03 11:20:12,084 - INFO - Processed problem fibonacci, range: 40, min:0, max: 1000
+2024-06-03 11:20:44,589 - INFO - Processed problem fibonacci, range: 40, min:0, max: 10
+2024-06-03 11:22:25,269 - INFO - Processed problem fibonacci, range: 20, min:0, max: 10
+2024-06-03 11:23:11,716 - INFO - Processed problem fibonacci, range: 20, min:0, max: 1000
+2024-06-03 11:23:36,616 - INFO - Processed problem fibonacci, range: 20, min:0, max: 10
+2024-06-03 11:24:21,810 - INFO - Processed problem fibonacci, range: 20, min:0, max: 10
+2024-06-03 11:25:18,170 - INFO - Shutting down the program
+2024-06-03 12:31:08,518 - INFO - Server started on localhost:65092
+2024-06-03 12:31:20,894 - INFO - Processed problem fibonacci, range: 40, min:0, max: 1000
+2024-06-03 12:31:32,628 - INFO - Processed problem fibonacci, range: 40, min:0, max: 1000
+2024-06-03 12:32:07,154 - INFO - Shutting down the program
+2024-06-03 12:32:21,780 - INFO - Shutting down the program
+2024-06-03 12:32:25,874 - ERROR - Error during shutdown: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /shutdown (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028485D7D850>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexi�n ya que el equipo de destino deneg� expresamente dicha conexi�n'))
+2024-06-03 15:02:47,269 - INFO - Server started on localhost:65092
+2024-06-03 15:04:32,723 - INFO - Server started on localhost:65092
+2024-06-03 15:04:38,661 - INFO - Processed problem fibonacci, range: 40, min:0, max: 1000
+2024-06-03 15:05:29,599 - INFO - Processed problem primeClassifier, range: 40, min:0, max: 1000
+2024-06-03 15:06:14,628 - INFO - Processed problem fizzbuzz, range: 40, min:0, max: 1000
+2024-06-03 15:07:05,886 - ERROR - Error during shutdown: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /shutdown (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027C1D579DF0>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexi�n ya que el equipo de destino deneg� expresamente dicha conexi�n'))
+2024-06-03 15:21:08,938 - INFO - Server started on localhost:65092
+2024-06-03 15:21:14,926 - INFO - Processed problem fizzbuzz, range: 40, min:0, max: 1000
+2024-06-03 16:28:51,431 - INFO - Server started on localhost:65092
+2024-06-03 16:29:35,955 - INFO - Server started on localhost:65092
+2024-06-03 16:45:07,045 - INFO - Server started on localhost:650922024-06-03 16:56:25,349 - INFO - Server started on localhost:65092
+2024-06-03 16:56:30,638 - INFO - Processed problem fibonacci, range: 1000, min:0, max: 1000
+2024-06-03 17:00:34,968 - INFO - Processed problem fibonacci, range: 1000, min:0, max: 1000
+2024-06-03 17:01:17,239 - INFO - Processed problem fibonacci, range: 1000, min:0, max: 1000
+2024-06-03 17:02:15,842 - INFO - Server started on localhost:65092
+2024-06-03 17:02:21,035 - INFO - Processed problem fibonacci, range: 1000, min:0, max: 1000
+2024-06-03 17:04:32,526 - ERROR - Connection error: [WinError 10054] Se ha forzado la interrupci�n de una conexi�n existente por el host remoto
+2024-06-03 17:04:38,906 - INFO - Processed problem fibonacci, range: 1000, min:0, max: 1000
+2024-06-03 17:06:53,788 - INFO - Processed problem fibonacci, range: 1000, min:0, max: 1000
+2024-06-03 17:07:13,136 - INFO - Processed problem fibonacci, range: 1000, min:0, max: 1000
+2024-06-03 17:10:38,082 - INFO - Processed problem fibonacci, range: 1000, min:0, max: 1000
+2024-06-03 17:10:47,506 - INFO - Processed problem fibonacci, range: 1000, min:0, max: 1000
+2024-06-03 17:13:38,639 - INFO - Processed problem fibonacci, range: 1000, min:0, max: 100
+2024-06-03 17:14:17,986 - ERROR - Error processing data: Expecting value: line 1 column 1 (char 0)
+2024-06-03 17:14:59,898 - INFO - Server started on localhost:65092
+2024-06-03 17:15:12,855 - INFO - Processed problem fibonacci, range: 1000, min:0, max: 100
+2024-06-03 17:17:42,166 - INFO - Processed problem fibonacci, range: 1000, min:0, max: 100
+2024-06-03 17:19:28,622 - INFO - Server started on localhost:65092
+2024-06-03 17:19:37,570 - INFO - Processed problem fibonacci, range: 1000, min:0, max: 100
+2024-06-03 17:20:33,831 - INFO - Server started on localhost:65092
+2024-06-03 17:20:38,493 - INFO - Processed problem fibonacci, range: 1000, min:0, max: 100
+2024-06-03 17:21:48,704 - INFO - Server started on localhost:65092
+2024-06-03 17:21:53,234 - INFO - Processed problem fibonacci, range: 1000, min:0, max: 100
+2024-06-03 17:22:40,521 - INFO - Server started on localhost:65092
+2024-06-03 17:22:45,607 - INFO - Processed problem fibonacci, range: 1000, min:0, max: 100
+2024-06-03 17:23:09,624 - INFO - Processed problem fizzbuzz, range: 1000, min:0, max: 100
+2024-06-03 17:26:57,236 - INFO - Server started on localhost:65092
+2024-06-03 17:27:02,361 - INFO - Processed problem fizzbuzz, range: 1000, min:0, max: 100
+2024-06-03 17:27:02,361 - ERROR - Connection error: a bytes-like object is required, not 'dict'
+2024-06-03 17:30:47,604 - INFO - Server started on localhost:65092
+2024-06-03 17:30:53,655 - INFO - Processed problem fizzbuzz, range: 1000, min:0, max: 100
+2024-06-03 17:30:53,656 - ERROR - Error processing data: 'Fizzbuzz' object has no attribute 'solve_problem'
+2024-06-03 17:30:53,656 - ERROR - Connection error: cannot access local variable 'resultJson' where it is not associated with a value
+2024-06-03 17:36:22,177 - INFO - Server started on localhost:65092
+2024-06-03 17:36:28,395 - INFO - Processed problem fizzbuzz, range: 1000, min:0, max: 100
+2024-06-03 17:36:28,395 - ERROR - Error processing data: 'Fizzbuzz' object has no attribute 'solve_problem'
+2024-06-03 17:36:28,395 - ERROR - Connection error: Object of type bytes is not JSON serializable
+2024-06-03 17:38:02,729 - INFO - Server started on localhost:65092
+2024-06-03 17:38:07,273 - INFO - Processed problem fizzbuzz, range: 1000, min:0, max: 100
+2024-06-03 17:38:07,273 - ERROR - Error processing data: 'Fizzbuzz' object has no attribute 'solve_problem'
+2024-06-03 17:38:07,274 - ERROR - Connection error: Object of type bytes is not JSON serializable
+2024-06-03 17:38:28,898 - INFO - Processed problem fizzbuzz, range: 1000, min:0, max: 100
+2024-06-03 17:38:28,898 - ERROR - Error processing data: 'Fizzbuzz' object has no attribute 'solve_problem'
+2024-06-03 17:38:28,898 - ERROR - Connection error: Object of type bytes is not JSON serializable
+2024-06-03 17:40:35,977 - INFO - Server started on localhost:65092
+2024-06-03 17:40:41,255 - INFO - Processed problem fizzbuzz, range: 1000, min:0, max: 100
+2024-06-03 17:40:41,255 - ERROR - Error processing data: 'Fizzbuzz' object has no attribute 'solve_problem'
+2024-06-03 17:42:21,742 - INFO - Server started on localhost:65092
+2024-06-03 17:42:26,724 - INFO - Processed problem fizzbuzz, range: 1000, min:0, max: 100
+2024-06-03 17:42:41,960 - INFO - Processed problem fizzbuzz, range: 1000, min:0, max: 100
+2024-06-03 17:44:10,776 - INFO - Processed problem fizzbuzz, range: 1000, min:0, max: 100
+2024-06-03 17:45:45,567 - INFO - Processed problem fizzbuzz, range: 1000, min:0, max: 100
+2024-06-04 11:46:15,531 - INFO - Shutting down the program
+2024-06-04 11:49:00,139 - INFO - Server started on localhost:65092
+2024-06-04 11:49:13,683 - INFO - Processed problem fibonacci, range: 40, min:0, max: 100
+2024-06-04 12:17:30,169 - INFO - Processed problem fibonacci, range: 40, min:0, max: 100
+2024-06-04 12:21:51,328 - INFO - Processed problem fibonacci, range: 40, min:0, max: 100
+2024-06-04 12:25:59,218 - INFO - Processed problem fibonacci, range: 40, min:0, max: 100
+2024-06-04 12:27:24,199 - INFO - Shutting down the program
+2024-06-04 12:28:16,721 - INFO - Server started on localhost:65092
+2024-06-04 12:28:37,772 - INFO - Processed problem fibonacci, range: 40, min:0, max: 100
+2024-06-04 12:38:59,352 - INFO - Processed problem primeClassifier, range: 100, min:1, max: 10
+2024-06-04 12:41:14,392 - INFO - Shutting down the program
+2024-06-05 22:27:17,778 - INFO - Server started on localhost:65092
+2024-06-05 22:27:50,215 - ERROR - Error processing data: cannot access local variable 'client_public_key' where it is not associated with a value
+2024-06-05 22:28:34,963 - INFO - Shutting down the program
+2024-06-05 22:28:48,350 - INFO - Server started on localhost:65092
+2024-06-05 22:29:05,105 - INFO - Shutting down the program
+2024-06-05 22:29:24,597 - INFO - Server started on localhost:65092
+2024-06-05 22:29:32,479 - ERROR - Error processing data: cannot access local variable 'client_public_key' where it is not associated with a value
+2024-06-05 22:30:54,513 - INFO - Shutting down the program
+2024-06-05 22:30:58,051 - INFO - Server started on localhost:65092
+2024-06-05 22:31:16,341 - INFO - Processed problem fibonacci, range: 40, min:0, max: 100
+2024-06-05 22:31:40,243 - INFO - Shutting down the program
+2024-06-05 22:31:47,557 - INFO - Server started on localhost:65092
+2024-06-05 22:34:43,767 - INFO - Server started on localhost:65092
+2024-06-05 22:34:51,952 - INFO - Shutting down the program
+2024-06-06 18:21:13,381 - INFO - Server started on localhost:65092
+2024-06-06 18:21:19,611 - INFO - Processed problem fibonacci, range: 40, min:0, max: 100
+2024-06-06 18:21:57,673 - INFO - Processed problem fibonacci, range: 40, min:0, max: 100
+2024-06-06 18:22:22,252 - INFO - Processed problem fibonacci, range: 40, min:0, max: 100
+2024-06-06 18:23:43,174 - INFO - Processed problem fibonacci, range: 40, min:0, max: 100
+2024-06-06 18:29:12,424 - INFO - Processed problem fibonacci, range: 40, min:0, max: 100
+2024-06-06 18:29:31,632 - INFO - Processed problem fibonacci, range: 40, min:0, max: 100
+2024-06-06 18:29:51,071 - INFO - Processed problem fibonacci, range: 40, min:0, max: 100
+2024-06-06 18:36:54,051 - INFO - Shutting down the program
+2024-06-06 18:56:29,326 - INFO - Server started on localhost:65092
+2024-06-06 18:56:42,726 - INFO - Shutting down the program
+2024-06-06 18:56:56,461 - INFO - Server started on localhost:65092
+2024-06-06 18:57:06,919 - INFO - Shutting down the program
+2024-06-06 20:57:07,321 - INFO - Server started on localhost:65092
+2024-06-06 20:57:18,432 - INFO - Processed problem fibonacci, range: 20000, min:0, max: 100
+2024-06-06 20:58:41,454 - INFO - Processed problem primeClassifier, range: 40, min:0, max: 100
+2024-06-06 20:59:20,382 - INFO - Shutting down the program
+2024-06-06 21:04:33,118 - INFO - Server started on localhost:65092
+2024-06-06 21:04:41,144 - INFO - Processed problem primeClassifier, range: 40, min:0, max: 100
+2024-06-06 21:37:15,739 - INFO - Shutting down the program
+2024-06-07 00:14:35,298 - INFO - Server started on localhost:65092
+2024-06-07 00:14:54,314 - INFO - Processed problem fibonacci, range: 40, min:0, max: 100
+2024-06-07 00:15:51,255 - INFO - Processed problem fibonacci, range: 40, min:0, max: 100
+2024-06-07 00:20:01,827 - INFO - Processed problem fibonacci, range: 40, min:0, max: 100
+2024-06-07 00:20:28,141 - INFO - Processed problem primeClassifier, range: 40, min:0, max: 100
+2024-06-07 00:21:29,943 - INFO - Shutting down the program
+2024-06-07 00:22:07,391 - INFO - Server started on localhost:65092
+2024-06-07 00:22:13,859 - INFO - Processed problem primeClassifier, range: 40, min:0, max: 100
+2024-06-07 00:22:24,515 - INFO - Shutting down the program

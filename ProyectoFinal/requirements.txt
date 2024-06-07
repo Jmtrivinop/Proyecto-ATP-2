@@ -1,0 +1,7 @@
+numpy
+flask
+pytest
+bcrypt
+pycryptodome
+requests
+binascii

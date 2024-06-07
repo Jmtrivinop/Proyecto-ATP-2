@@ -1,0 +1,42 @@
+@startuml
+
+interface INumberGenerator {
+    +generate_numbers(min_num: int, max_num: int, size: int): int[]
+}
+
+class GenerateNormal {
+    +generate_numbers(min_num: int, max_num: int, size: int): int[]
+}
+
+class GenerateUniform {
+    +generate_numbers(min_num: int, max_num: int, size: int): int[]
+}
+
+GenerateNormal ..|> INumberGenerator
+GenerateUniform ..|> INumberGenerator
+
+class EncryptionHandler {
+    -private_key: RSA
+    -public_key: RSA
+    +generate_keys(): void
+    +encrypt(data: dict, public_key_pem: str): dict
+    +decrypt(encrypted: dict): dict
+}
+
+class MyApp {
+    +run(number: INumberGenerator, min: int, max: int, range: int, test: bool): int[]
+}
+
+class FlaskApp {
+    -encryption_handler: EncryptionHandler
+    -client_public_key: str
+    +shutdown(): dict
+    +get_numbers(): dict
+    +receive_public_key(): dict
+}
+
+FlaskApp -- EncryptionHandler
+FlaskApp -- MyApp
+MyApp -- INumberGenerator
+
+@enduml

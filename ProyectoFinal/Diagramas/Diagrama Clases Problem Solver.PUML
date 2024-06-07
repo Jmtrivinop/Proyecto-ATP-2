@@ -1,0 +1,80 @@
+@startuml
+interface IProblemSolver {
+    + compute_results(data: List[int])
+}
+
+class PrimeClassifier  {
+    + compute_results(data: List[int])
+    - __prime_classifier(number: int)
+    - __is_prime(number: int)
+    - __is_semiprime(number: int)
+    - __is_cuadratic_semiprime(number: int)
+}
+
+class Fizzbuzz  {
+    + compute_results(data: List[int])
+    - __fizzbuzz(number: int)
+}
+
+class Fibonacci  {
+    + compute_results(data: List[int])
+    - __fibonacci(number: int)
+}
+
+interface IProblemCreator {
+    + factory_method(): IProblemSolver
+    + solve(data: List[int])
+}
+
+class CreatorPrime {
+    + factory_method(): IProblemSolver
+}
+
+class CreatorFizzbuzz  {
+    + factory_method(): IProblemSolver
+}
+
+class CreatorFibonacci  {
+    + factory_method(): IProblemSolver
+}
+
+class MyApp {
+    + select_problem(problem: str): IProblemCreator
+    + run(creator: IProblemCreator, data: List[int]): List[str]
+}
+
+
+class Auth {
+    + static generate_hash(password: str): str
+    + static compare_password(hashed_password: str, password: str): bool
+}
+
+
+class EncryptionHandler {
+    - private_key: RSA
+    - public_key: RSA
+    + generate_keys()
+    + encrypt(data: dict, public_key_pem: str): dict
+    + decrypt(encrypted: dict): dict
+}
+
+
+class Main {
+    + __init__()
+    + start_server(host: str, port: int)
+}
+IProblemSolver ..> IProblemCreator
+
+IProblemSolver <|.. PrimeClassifier
+IProblemSolver <|.. Fizzbuzz
+IProblemSolver <|.. Fibonacci
+
+MyApp o-- IProblemCreator
+Main *-- EncryptionHandler
+Main *-- MyApp
+Main *-- Auth
+
+IProblemCreator <|.. CreatorPrime
+IProblemCreator <|.. CreatorFizzbuzz
+IProblemCreator <|.. CreatorFibonacci
+@enduml

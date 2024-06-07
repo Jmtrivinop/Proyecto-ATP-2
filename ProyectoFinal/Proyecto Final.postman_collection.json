@@ -1,0 +1,72 @@
+{
+	"info": {
+		"_postman_id": "011bbe25-ccf2-4065-952d-16dfa6552234",
+		"name": "Proyecto Final",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30717855"
+	},
+	"item": [
+		{
+			"name": "Verify data server",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"\r",
+							"pm.test(\"Verify that it creates 1001 numbers\", function () {\r",
+							"   \r",
+							"    var jsonData = pm.response.json();\r",
+							"    \r",
+							"    pm.expect(jsonData.length).to.equal(1001);\r",
+							"\r",
+							"});\r",
+							"pm.test(\"Verify status is 200\", function (){\r",
+							"    pm.expect(pm.response.code).to.equal(200);\r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Problem\": \"fibonacci\",\r\n    \"AmountData\": 1001,\r\n    \"Minimum\": 1,\r\n    \"Maximum\": 100,\r\n    \"Test\": false\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/numbers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"numbers"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

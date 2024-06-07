@@ -1,0 +1,34 @@
+@startuml
+
+Actor Client
+
+Client -> app: POST /public_key
+activate app
+app -> EncryptionHandler: generate_keys()
+app -> EncryptionHandler: import client_public_key
+app --> Client: Response with server_public_key
+deactivate app
+
+Client -> app: POST /numbers
+activate app
+app -> EncryptionHandler: decrypt(data)
+app -> MyApp: run(generator, min, max, range, test)
+alt if flag is True
+    MyApp -> GenerateNormal: generate_numbers(min, max, range)
+    MyApp --> MyApp: result = generated numbers
+else if flag is False
+    MyApp -> GenerateUniform: generate_numbers(min, max, range)
+    MyApp --> MyApp: result = generated numbers
+end
+MyApp --> app: result
+app -> EncryptionHandler: encrypt(result, client_public_key)
+app --> Client: encrypted_result
+deactivate app
+
+Client -> app: GET /shutdown
+activate app
+app -> app: shutdown_server()
+app --> Client: {"message": "Shutdown the program"}
+deactivate app
+@enduml
+
